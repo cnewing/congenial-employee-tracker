@@ -13,3 +13,22 @@ connection.connect(function (err) {
   console.log(`Connected to database! App listening on PORT: ${PORT}`);
   start();
 });
+
+// P R O M P T S
+const prompt = () {
+  inquirer
+    .prompt({
+      type: "list",
+      name: "option",
+      message: "What would you like to do?",
+      choices: [
+        "Add Department",
+        "Add Role",
+        "Add Employee",
+        "View Department",
+        "View Role",
+        "View Employee",
+        "Update Employee Role",
+        "Exit"
+      ]
+    })
