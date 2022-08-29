@@ -1,8 +1,9 @@
 # Employee Tracker
 
-A command-line application for managing a company's employees using node, inquirer, and MySQL.
+An app that keeps track of all staff in a given department and allows you to view that info through the command line
 
 ## Goal
+View and manage departments' managers and employees in a table
 
 ## Tools
 
